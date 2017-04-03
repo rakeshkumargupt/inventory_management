@@ -1,0 +1,245 @@
+[23:42:00] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[23:48:01] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[23:48:38] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[23:50:46] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[23:51:52] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[23:54:43] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[23:58:23] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:08:09] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:10:11] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:10:52] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:12:31] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:12:50] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:13:40] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:14:51] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:20:17] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:21:28] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:21:53] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:24:30] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:25:46] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:27:09] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:28:36] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:28:55] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:29:21] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:29:43] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:30:54] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:33:29] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:36:29] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:37:23] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:37:56] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:39:04] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:40:29] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:42:08] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:42:30] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:43:21] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:44:10] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:45:02] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:45:31] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:45:54] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:46:48] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:47:09] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:47:40] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:48:05] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:51:02] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:51:23] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:52:47] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:53:55] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:54:55] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:54:58] 
+    create table UserData (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[00:54:59] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[00:56:23] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:56:26] 
+    drop table if exists UserData
+[00:56:26] 
+    create table UserData (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[00:56:27] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[00:57:20] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:57:23] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[00:58:45] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:58:48] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[00:59:35] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[00:59:38] 
+    create table hibernate_sequence (
+        next_val bigint
+    )
+[00:59:38] 
+    insert into hibernate_sequence values ( 1 )
+[01:00:11] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:00:14] 
+    create table User (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[01:01:05] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:01:08] 
+    drop table if exists hibernate_sequence
+[01:01:08] 
+    drop table if exists User
+[01:01:08] 
+    create table hibernate_sequence (
+        next_val bigint
+    )
+[01:01:08] 
+    insert into hibernate_sequence values ( 1 )
+[01:01:08] 
+    create table User (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[01:01:09] 
+    drop table if exists hibernate_sequence
+[01:01:09] 
+    drop table if exists User
+[01:01:50] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:01:53] 
+    drop table if exists hibernate_sequence
+[01:01:53] 
+    drop table if exists User
+[01:01:53] 
+    create table hibernate_sequence (
+        next_val bigint
+    )
+[01:01:54] 
+    insert into hibernate_sequence values ( 1 )
+[01:01:54] 
+    create table User (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[01:02:50] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:02:53] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[01:03:35] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:03:39] 
+    create table User (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[01:03:39] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[01:04:24] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:04:26] HHH000346: Error during managed flush [HV000183: Unable to load 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead]
+[01:08:23] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:08:27] 
+    insert 
+    into
+        User
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:08:27] binding parameter [1] as [VARCHAR] - [Indranagar Bangalore]
+[01:08:27] binding parameter [2] as [VARCHAR] - [Satyendra]
+[01:08:27] binding parameter [3] as [BIGINT] - [983748937]
+[01:08:27] binding parameter [4] as [INTEGER] - [10]
+[01:09:25] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:09:28] 
+    create table User (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[01:09:28] 
+    insert 
+    into
+        User
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:09:28] binding parameter [1] as [VARCHAR] - [Indranagar Bangalore]
+[01:09:28] binding parameter [2] as [VARCHAR] - [Satyendra]
+[01:09:28] binding parameter [3] as [BIGINT] - [983748937]
+[01:09:28] binding parameter [4] as [INTEGER] - [10]
+[01:12:22] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:12:25] 
+    insert 
+    into
+        User
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:12:25] binding parameter [1] as [VARCHAR] - [Indranagar Bangalore]
+[01:12:25] binding parameter [2] as [VARCHAR] - [Satyendra]
+[01:12:25] binding parameter [3] as [BIGINT] - [983748937]
+[01:12:25] binding parameter [4] as [INTEGER] - [10]
+[01:12:25] Duplicate entry '10' for key 'PRIMARY'
+[01:12:26] HHH000346: Error during managed flush [could not execute statement]
+[01:12:52] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:12:55] 
+    insert 
+    into
+        User
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:12:55] binding parameter [1] as [VARCHAR] - [Indranagar Bangalore]
+[01:12:55] binding parameter [2] as [VARCHAR] - [Satyendra]
+[01:12:55] binding parameter [3] as [BIGINT] - [983748937]
+[01:12:55] binding parameter [4] as [INTEGER] - [11]
+[01:12:55] 
+    insert 
+    into
+        User
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:12:55] binding parameter [1] as [VARCHAR] - [Allahabad]
+[01:12:55] binding parameter [2] as [VARCHAR] - [Pawan]
+[01:12:55] binding parameter [3] as [BIGINT] - [938498423]
+[01:12:55] binding parameter [4] as [INTEGER] - [12]
+[01:14:05] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:14:08] 
+    insert 
+    into
+        User
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:14:08] binding parameter [1] as [VARCHAR] - [Padrauna]
+[01:14:08] binding parameter [2] as [VARCHAR] - [Raman]
+[01:14:08] binding parameter [3] as [BIGINT] - [834758485]
+[01:14:08] binding parameter [4] as [INTEGER] - [14]
+[01:51:30] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[01:51:35] 
+    create table Satyendra (
+        id integer not null,
+        addr varchar(255),
+        name varchar(255),
+        phoneNumber bigint,
+        primary key (id)
+    )
+[01:51:35] 
+    insert 
+    into
+        Satyendra
+        (addr, name, phoneNumber, id) 
+    values
+        (?, ?, ?, ?)
+[01:51:35] binding parameter [1] as [VARCHAR] - [Padrauna]
+[01:51:35] binding parameter [2] as [VARCHAR] - [Raman]
+[01:51:35] binding parameter [3] as [BIGINT] - [834758485]
+[01:51:35] binding parameter [4] as [INTEGER] - [14]
